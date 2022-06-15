@@ -1,0 +1,141 @@
+/* ======= RESET ========= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-right: 1.5rem;
+}
+
+body {
+  background: rgb(69,91,184);
+background: linear-gradient(0deg, rgba(69,91,184,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
+margin: 0;
+}
+/* Tira os pontinhos da lista */
+ul {
+  list-style: none;
+}
+
+/* ========== NAV ======= */
+header {
+  padding: 3rem 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  padding-left: 5rem;
+  font: 400 1rem 'Poppins', sans-serif;
+}
+
+ul {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  grid-gap: 1rem;
+}
+
+
+
+section {
+  padding: 1rem 5rem;
+}
+
+/* ========== HEADER ======= */
+
+h1 {
+  font: 700 1.6rem 'Poppins', sans-serif;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font: 600 1.3rem 'Poppins', sans-serif;
+  margin-bottom: 2rem;
+}
+
+p {
+  font: 400 1.2rem 'DM Sans', sans-serif;
+  margin-bottom: 3rem;
+ 
+}
+
+
+
+/* INICIO */
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.container img {
+  max-width: 50%;
+}
+
+.container a {
+  background-color: #148dff;
+  padding: 1rem;
+  color: white;
+  font: 400 1rem 'DM Sans', sans-serif;
+  border-radius: 10px;
+}
+
+header, main {
+  color: white;
+}
+
+/* VIDEOS */
+.glass {
+  background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+margin: auto 7rem 3rem 7rem;
+border-radius: 30px;
+color: white;
+}
+
+.iframe-video {
+  height: 20rem;
+  width: 40rem;
+  margin-bottom: 2rem
+}
+
+
+.video {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3rem;
+}
+
+#calendario a {
+  background: #5fb2ff;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  font: 400 1rem 'DM Sans', sans-serif;
+  
+}
+
+.grid-item {
+  flex: 1 1 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-item img {
+  margin-bottom: 3rem;
+}
